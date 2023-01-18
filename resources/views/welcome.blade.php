@@ -280,6 +280,7 @@
         $("#btn-close").on('click', () => {
             $("#btn-close").addClass('d-none')
             is_update = false
+            $("form button").html("Tambah")
             $("table tbody .active").removeClass("active")
             $("form input , form textarea").val('')
         })
